@@ -92,7 +92,7 @@ run_clang() {
     if ! command -v gcc &>/dev/null; then return; fi
 
     output_file="$problem_solution_file.bin"
-    gcc -O3 -o $output_file $problem_solution_file
+    gcc -O3 -o $output_file $problem_solution_file -lm
 
     if [[ ! -f $output_file ]]; then return; fi
 
