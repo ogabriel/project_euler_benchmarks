@@ -5,4 +5,5 @@ It's well know that project euler solutions and results should not be shared, bu
 ## TODO
 
 - add a way to order by fastest
+- add a bar graph
 - run ruby and crystal on the same files if necessary
